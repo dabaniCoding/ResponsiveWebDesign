@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+@File   : tribute.html
+@Author : MAKUTA Robert
+@Link   : "https://github.com/dabaniCoding/responsive-web-design"
+@Date   : 1/31/2020, 8:59:46 AM
+-->
+<html>
+    <head>
+        <title>Build a Survey Form</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    </head>
+    <body>
+        <main id="main">
+            <header>
+                <h1 id="title">Pre-Learning Survey</h1>
+            </header>
+            <article id="tribute-info">
+                <p id="description">
+                Kindly fill the form below, it takes only 2 minutes to provide us with your feedback about your prerequisite.<br>
+                The information provided are confidential and will never be divulgated to any third party!
+                </p>
+                <p>
+                    <form action="#" id="survey-form">
+                        <label for="name" id="name-label">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Your full name" required><br>
+                        <label for="email" id="email-label">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Your email" required><br>
+                        <label for="number" id="number-label">How many years of working experience?</label>
+                        <input type="number" name="number" id="number" min="0" max="10" placeholder=0 required><br>
+                        <label for="dropdown" id="dropdown-label">What do you want to learn?</label>
+                        <select name="dropdown" id="dropdown">
+                            <option value="Frontend" selected>Frontend development</option>
+                            <option value="Backend">Backend development</option>
+                            <option value="Standalone">Standalone application</option>
+                            <option value="Mobile">Mobile application</option>
+                            <option value="OS">Operating system</option>
+                            <option value="Networking">Networking Security</option>
+                        </select>
+                        <fieldset>
+                            <legend>Do you have any programing background?</legend>
+                            <input type="radio" name="background" id="no" value="no" checked>
+                            <label for="no"> No</label><br>
+                            <input type="radio" name="background" id="yes" value="yes">
+                            <label for="yes"> Yes</label>
+                        </fieldset>
+                        <fieldset id="courses">
+                            <legend>If yes in which programming languages (many choices allowed)</legend>
+                            <input type="checkbox" name="language1" id="language1" value="JavaScript">JavaScript<br>
+                            <input type="checkbox" name="language2" id="language2" value="Java/Kotlin Programming">Java?Kotlin Programming<br>
+                            <input type="checkbox" name="language3" id="language3" value="Python">Python<br>
+                            <input type="checkbox" name="language4" id="language4" value="Go Programming">Go Programming<br>
+                            <input type="checkbox" name="language5" id="language5" value="PHP">PHP<br>
+                            <input type="checkbox" name="language6" id="language6" value="C">C/C++/C#<br>
+                            <input type="checkbox" name="language7" id="language7" value="Other">Other                           
+                        </fieldset><br>
+                        <label for="comments" id="comments-label">If Other, comment your choice</label>
+                        <textarea name="comments" id="comments" cols="30" rows="10" placeholder="A few comments to your choices"></textarea>
+                        <button type="submit" id="submit">Submit</button>
+                    </form>  
+                </p>
+                <p>
+                    <a id="tribute-link" href="https://github.com/dabaniCoding/responsive-web-design" target="_blank">Makuta survey form</a>
+                </p>
+            </article>
+        </main>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
