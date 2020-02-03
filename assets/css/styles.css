@@ -80,9 +80,9 @@
     margin-left: -0.5em;
     margin-right: -1em;
     padding: 0em;    
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
     z-index: 10;
     box-shadow:0px 3px 3px darkgreen;
   }
@@ -147,3 +147,73 @@
     cursor: pointer;
     border-radius: 5px;
   }
+/* 
+* Technical Documentation page
+*/
+  #navbar {
+    /*css for fixed navbar*/
+    display: grid;
+    grid-template-columns: 100%;
+    background-color:rgb(30, 200, 70);
+    margin-left: 0em;
+    margin-right: 51vw;
+    padding: 0em;    
+    position: fixed; 
+    top: 0; 
+    width: 49vw; 
+    height: 100vh;
+    z-index: 10;
+    box-shadow:0px 3px 3px darkgreen;
+}
+#navbar>header{
+  grid-row: 1 / 2;
+}
+#navbar>.flex-nav{
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body{
+  margin: 0em;
+}
+.title{
+  background-color: darkgreen;
+  padding: 0em;
+  color: hsl(120, 75%, 75%);
+  text-align: center;
+  margin-top: 0em;
+  
+}
+#main-doc{
+  grid-template-columns: 5% 90%;
+  padding: 0.5em 1em 0.5em 1em;
+  width: 46vw;
+  margin-left: 50vw;
+}
+.main-section{
+  padding: 0.5em;
+  color: darkgreen;
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  #navbar {
+    float:none; 
+    height:100vh; 
+    width: 48vw;
+    position: fixed;
+    margin-right: 50vw;
+  }  
+  #main-doc{
+    grid-template-columns: 5% 90%;
+    padding: 0.5em 0.2em 0.5em 0.1em;
+    width: 46vw;
+    margin-left: 50vw;
+    font-size: 14px;
+  }
+  .main-section{
+    padding: 0.1em;
+    color: darkgreen;
+    font-size: 16px;
+  }
+}
