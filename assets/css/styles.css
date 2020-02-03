@@ -79,10 +79,10 @@
     background-color:rgb(30, 200, 70);
     margin-left: -0.5em;
     margin-right: -1em;
-    padding: 0em;    
-    position: fixed; 
-    top: 0; 
-    width: 100%; 
+    padding: 0em;
+    position: fixed;
+    top: 0;
+    width: 100%;
     z-index: 10;
     box-shadow:0px 3px 3px darkgreen;
   }
@@ -99,7 +99,7 @@
   }
   #nav-menu>ul{
     list-style-type: none;
-    margin: 0em; 
+    margin: 0em;
     padding: 0em;
   }
   #nav-menu>ul>li{
@@ -127,7 +127,7 @@
   }
   .logo-img{
     flex-grow: 1;
-    align-self: flex-start;    
+    align-self: flex-start;
     padding: 0em 0em 0em 2em;
     z-index: 12;
   }
@@ -147,7 +147,7 @@
     cursor: pointer;
     border-radius: 5px;
   }
-/* 
+/*
 * Technical Documentation page
 */
   #navbar {
@@ -157,10 +157,10 @@
     background-color:rgb(30, 200, 70);
     margin-left: 0em;
     margin-right: 51vw;
-    padding: 0em;    
-    position: fixed; 
-    top: 0; 
-    width: 49vw; 
+    padding: 0em;
+    position: fixed;
+    top: 0;
+    width: 49vw;
     height: 100vh;
     z-index: 10;
     box-shadow:0px 3px 3px darkgreen;
@@ -183,7 +183,7 @@ body{
   color: hsl(120, 75%, 75%);
   text-align: center;
   margin-top: 0em;
-  
+
 }
 #main-doc{
   grid-template-columns: 5% 90%;
@@ -196,14 +196,17 @@ body{
   color: darkgreen;
   font-size: 20px;
 }
+footer{
+  background-color: lightgreen;
+}
 @media screen and (max-width: 768px) {
   #navbar {
-    float:none; 
-    height:100vh; 
+    float:none;
+    height:100vh;
     width: 48vw;
     position: fixed;
     margin-right: 50vw;
-  }  
+  }
   #main-doc{
     grid-template-columns: 5% 90%;
     padding: 0.5em 0.2em 0.5em 0.1em;
