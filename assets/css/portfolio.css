@@ -1,0 +1,435 @@
+body{
+    background-color: lightcyan;
+    background: linear-gradient(45deg, lightcyan, darkgreen);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkgreen;
+}
+h1{
+  font-size: 60px;
+  line-height: 60px;
+  text-shadow: 3px 2px 0px #fff;
+}
+h2{
+    font-size: 45px;
+    line-height: 45px;
+    text-shadow: 2px 2px 0px #fff;
+}
+h3{
+    font-size: 30px;
+    line-height: 30px;
+    text-shadow: 2px 2px 0px #fff;
+}
+footer{
+    background-color: green;
+    color: white;
+    padding: 1em 1.5em;
+    margin: 1em -0.5em -0.5em -0.5em;
+    text-align: center;
+}
+dt{
+    font-style: italic;
+    font-weight: 600;
+}
+#main{
+    position: relative;
+    background-color: lightgreen;
+    margin: 75px auto 0px auto;
+    padding: 1.5em;
+    padding-top: 1.5em;
+    font-size: 18px;
+    font-family: arial, georgia;
+    line-height: 26px;
+    font-weight: 500;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 1px 5px 5px 5px green;
+  }
+#welcome-section{
+    background-color: hsl(120, 75%, 75%);
+    background: radial-gradient(circle, green, lime, white);
+    margin: -1.5em -1.5em 0em -1.5em;
+    padding: 1em 1.5em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    min-height: 94vh;
+}
+#welcome-section>.description{
+    font-size: 28px;
+    line-height: 36px;
+}
+#projects{
+    background-color: limegreen;
+    margin: 0em -1.5em 0em -1.5em;
+    padding: 1em 1.5em;
+}
+#websites{
+    margin: 1em -1.5em 0em -1.5em;
+    padding: 1em 1.5em;    
+    background: radial-gradient(circle, white, lime, green);
+}
+#logos{
+    margin: 0em -1.5em 0em -1.5em;
+    padding: 1em 1.5em;    
+    background: radial-gradient(circle, green, lime, white);
+}
+#learning{
+    margin: 0em -1.5em 0em -1.5em;
+    padding: 1em 1.5em;    
+    background: radial-gradient(circle, white, lime, green);
+}
+#contact{
+    margin: -1em -1.5em -1.5em -1.5em;
+    padding: 1em 1.5em; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;   
+    background: radial-gradient(circle, green, lime, white);
+}
+  #title{
+    background-color: darkgreen;
+    margin-top: -1.5em;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    padding: 1em;
+    color: hsl(120, 75%, 75%);
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  #tribute-info{
+    text-align: justify;
+  }
+  #image{
+    border: solid darkgreen;
+    border-radius: 50%;
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+  }
+  #card-img{      
+    border: solid green;
+    border-radius: 50%;
+    background-color: lightcyan;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 1em;
+  }
+  #img-div{
+    text-align: center
+  }
+  figure{
+    margin: 0em;
+    padding: 0em;
+  }
+  #tribute-link{
+    text-decoration: none;
+    color: darkgreen;
+  }
+  a:hover {
+    background-color: white;
+  }
+  .flex-nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  #logo{
+    flex-grow: 1;
+    align-self: flex-start;
+  }
+  #navbar{
+    display: flex;
+    background-color:rgb(30, 200, 70);
+    margin-left: -0.5em;
+    margin-right: -1em;
+    padding: 0em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow:0px 3px 3px darkgreen;
+  }
+  #brand{
+    flex-grow: 1;
+    margin: 0em 1em 0em 0.5em;
+    text-shadow: 3px 3px 0px darkgreen;
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+  }
+  #nav-menu{
+    flex-grow: 11;
+    align-self: flex-end;
+  }
+  #nav-menu>ul{
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+  }
+  #nav-menu>ul>li{
+    float: left;
+  }
+  #nav-menu>ul>li:hover{
+    background-color: lightgreen;
+    border-radius: 5px;
+  }
+  .nav-link a{
+    text-decoration: none;
+    color: darkgreen;
+  }
+  /*
+  * Drop down menu
+  * ===============
+  */
+  ul#navigation{
+      margin: 0px auto;
+      position: relative;
+      float: left;
+      border-left: 1px solid #c4e7db;
+      border-right: 1px solid #c4e7db;
+  }
+  ul#navigation li{
+      display: inline;
+      margin: 0;
+      padding: 0;
+      float: left;
+      position: relative;
+      border-top: 1px solid #c4e7db;
+      border-bottom: 2px solid #c4e7db;
+  }
+  ul#navigation li a{
+      padding: 10px 25px;
+      color: darkgreen;
+      font-weight: 900;
+      text-shadow: 1px 1px 0px #fff;
+      text-decoration: none;
+      display: inline-block;
+      border-right: 1px solid #fff;
+      border-left: 1px solid palegreen;
+      border-top: 1px solid #fff;
+      background: limegreen;
+      -webkit-transition:color 0.2s linear, background 0.2s linear;
+      -moz-transition:color 0.2s linear, background 0.2s linear;
+      -o-transition:color 0.2s linear, background 0.2s linear;
+      transition:color 0.2s linear, background 0.2s linear;
+  }
+ul#navigation li a:hover {
+    background: lime;
+    color:darkgreen;
+}
+ 
+ul#navigation li a.first {
+    border-left: 0 none;
+}
+ 
+ul#navigation li a.last {
+    border-right: 0 none;
+}
+ 
+ul#navigation li:hover > a {
+    background:lightgreen;
+}
+
+/* Drop-Down Navigation */
+ul#navigation li:hover > ul
+{
+/*these 2 styles are very important,
+being the ones which make the drop-down to appear on hover */
+    visibility:visible;
+    opacity:1;
+}
+ 
+ul#navigation ul, ul#navigation ul li ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+/*the next 2 styles are very important,
+being the ones which make the drop-down to stay hidden */
+    visibility:hidden;
+    opacity:0;
+    position: absolute;
+    z-index: 99999;
+    width:180px;
+    background:lawngreen;
+    box-shadow:1px 1px 3px darkgreen;
+/* css3 transitions for smooth hover effect */
+    -webkit-transition:opacity 0.2s linear, visibility 0.2s linear;
+    -moz-transition:opacity 0.2s linear, visibility 0.2s linear;
+    -o-transition:opacity 0.2s linear, visibility 0.2s linear;
+    transition:opacity 0.2s linear, visibility 0.2s linear;
+}
+ 
+ul#navigation ul {
+    top: 43px;
+    left: 1px;
+}
+ 
+ul#navigation ul li ul {
+    top: 0;
+    left: 181px; /* strong related to width:180px; from above */
+}
+ 
+ul#navigation ul li {
+    clear:both;
+    width:100%;
+    border:0 none;
+    border-bottom:1px solid #c9c9c9;
+}
+ 
+ul#navigation ul li a {
+    background:none;
+    padding:7px 15px;
+    color:darkgreen;
+    text-shadow:1px 1px 0px #fff;
+    text-decoration:none;
+    display:inline-block;
+    border:0 none;
+    float:left;
+    clear:both;
+    width:150px;
+}
+
+  #header-img{
+    align-content: left;
+    height: 50px;
+  }
+  .flex-container{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: lightgreen;
+    margin-top: -1.5em;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+  }
+  .logo-img{
+    flex-grow: 1;
+    align-self: flex-start;
+    padding: 0em 0em 0em 2em;
+    z-index: 12;
+  }
+  .header-title{
+    flex-grow: 11;
+  }
+  .button {
+    background-color: lightgreen;
+    border: none;
+    color: darkgreen;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .description{
+      background: ghostwhite;
+      background: linear-gradient(45deg,white, lawngreen, lightgreen);
+      background: -moz-linear-gradient(45deg,white, lawngreen, lightgreen);
+      background: -webkit-linear-gradient(45deg,white, lawngreen, lightgreen);
+      font-size: 18px;
+      font-weight: 400;
+      padding: 1em;
+      border-radius: 20px;
+  }
+
+  .container{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px 15px;
+  }
+  #contact>.container{      
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 10px 15px;
+  }
+
+  .card{
+      background-color: white;
+      border: none;
+      border-radius: 5px;
+      min-height: 200px;
+      margin: 5px 0px;
+      position: relative;
+  }
+
+  .card-title{
+    background-color: hsl(120, 75%, 75%);
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+  .card-footer{
+      background-color: hsl(120, 75%, 75%);
+      padding: 10px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      right: 0;
+  }
+
+  .card-block{
+      padding: 5px;
+      min-height: 100px;
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    #main{
+      width: 90%;
+    }
+    body{
+        font-size: 14px;
+    }
+    h1 {
+      font-size: 30px;
+      line-height: 35px;
+    }
+    h2{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    h3{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }    
+  } 
+  
+  @media screen and (max-width: 512px) {
+    #main{
+      width: 90%;
+      margin-top: 3em;
+    }
+    body{
+        font-size: 14px;
+    }
+    h1 {
+      font-size: 20px;
+      line-height: 25px;
+    }
+    h2{
+        font-size: 18x;
+        line-height: 22px;
+    }
+    h3{
+        font-size: 16px;
+        line-height: 20pxx;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }    
+  }
